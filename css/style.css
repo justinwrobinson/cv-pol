@@ -1,0 +1,472 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Open Sans, sans-serif;
+}
+
+h1 {
+    font-family: Mulish;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: .25rem;
+    margin: 15px 0;
+}
+
+h2 {
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: Mulish;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #46C6F3;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+}
+
+h4 {
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: Mulish;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+h6 {
+    font-family: Mulish;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #46C6F3;
+}
+
+.white {
+    color: white;
+}
+
+.light-text {
+    color: #5b5b5b;
+}
+
+/* 
+*
+Header Section 
+*
+*/
+#header {
+    width: 100%;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+#title-banner {
+    text-align: center;
+    padding: 4rem;
+    color: white;
+}
+
+
+#headshot-cropped-img {
+    min-width: 250px;
+    max-width: 22%;
+    border-radius: 100%;
+    display: block;
+}
+
+
+
+/* 
+*
+Navigation Section 
+*
+*/
+
+#navigation, .navbar-custom  {
+    background-color: #46C6F3;
+}
+
+
+.navbar-custom .nav-link {
+    color: whitesmoke;
+    /* font-weight: 300; */
+    margin-right: .5rem;
+    text-transform: uppercase;
+}
+
+.navbar-custom .nav-link:hover {
+    color: gray;
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: black;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    color: white;
+}
+
+
+
+/* 
+*
+About Me
+*
+*/
+
+#about {
+    background-color: ghostwhite;
+    overflow-wrap: break-word;
+}
+
+.about-wrapper {
+    padding: 2% 0;
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+#headshot-full-img {
+    max-height: 540px;
+    max-width: 100%;
+    border-radius: 30px;
+    float: right;
+}
+
+.about-me {
+    padding: 3%;
+}
+
+.about-me-col-left {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.about-me-col-right {
+    vertical-align: middle;
+    min-height: 540px;
+    padding-right: 20%;
+}
+
+.about-me-text {
+    text-align: left;
+    display: block;
+    margin-bottom: 2%;
+    border-bottom: #46C6F3 2px solid;
+}
+
+.about-me-text-bio {
+    color: black;
+    text-align: left;
+    display: block;
+    margin-bottom: 2%;
+}
+
+
+
+/* 
+*
+background Section 
+*
+*/
+
+#background {
+    width: 100%;
+    min-height: 650px;
+    background-color: gray;
+    background: url(../images/BLM.jpg);
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+#background h2 {
+    padding-top: 2em;
+}
+
+#background .background-row {
+    padding-top: 2%;
+}
+
+#background .background-col {
+    text-align: center;
+    padding: 4% 6% 2%;
+}
+
+#background i {
+    color: #46C6F3;
+}
+
+#background p {
+    padding-top: 5%;
+    font-weight: 400;
+}
+
+/* 
+*
+CV Tiles 
+*
+*/
+
+#cv-grid {
+    padding: 0;
+}
+
+.cv-square {
+    background-color: ghostwhite;
+    text-align: center;
+    vertical-align: middle;
+    height: 640px;
+    padding: 4rem;
+}
+
+
+/*Experience Section*/
+#experience {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.cv-experience {
+    overflow-y: auto;
+}
+
+.cv-experience-row {
+    text-align: left;
+    padding: 1rem .2rem;
+}
+
+
+.job-dates {
+    width: 25%;
+    vertical-align: top;
+    display: inline-block;
+    border-left: solid #46C6F3 5px;
+    padding-left: 10px;
+}
+
+.job-details {
+    width: 74%;
+    display: inline-block;
+}
+
+.job .job-title {
+    font-weight: 700;
+}
+
+.job-org {
+    color: #5b5b5b;
+}
+
+.job-description {
+    padding: 1rem;
+    margin: 0;
+}
+
+/* 
+*
+Strengths Section
+*
+*/
+
+.cv-strengths {
+    background: url(../images/computer_code.jpg);
+    background-size: cover;
+}
+
+.strengths-wrapper {
+    height: 90%;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+.strengths-wrapper hr {
+    border: 5px solid #46C6F3;
+    border-radius: 5px;
+    margin: 0;
+    position: absolute;
+}
+
+.strengths-layout-left {
+    border-right: solid 10px #46C6F3;
+    border-radius: 5px;
+    width: 50%;
+    height: 70%;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    right: 48.5%;
+}
+
+.strengths-layout-right {
+    border-left: solid 10px #46C6F3;
+    border-radius: 5px;
+    width: 49%;
+    height: 70%;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+}
+
+.strength-left {
+    text-align: right;
+    padding-right: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.strength-left hr {
+    top: 100%;
+}
+
+.strength-right {
+    text-align: left;
+    padding-left: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.strength-right {
+    top: 100%;
+}
+
+
+/*
+*
+Certifications Section
+*
+*/
+.cv-certifications {
+    background: url(../images/roses_luxury.jpg);
+    background-size: cover;
+}
+
+.certifications-container {
+    padding: 10% 5%;
+}
+.certifications-container h4 {
+    margin-top: 5rem;
+}
+
+/*
+*
+Skills Section
+*
+*/
+.skills-container {
+    text-align: left;
+}
+
+.progress-custom {
+    margin-bottom: 8px;
+}
+
+.progress-bar-custom {
+    background-color: #46C6F3;
+}
+
+
+/* 
+*
+Media Section
+*
+*/
+#media {
+    padding-top: 2%;
+    text-align: center;
+    background-color: #57575C;
+}
+
+.carousel-item-custom {
+    padding: 4%;
+}
+
+.carousel-item-custom a:hover {
+    filter: brightness(70%);
+}
+
+.carousel-item-custom .card {
+    margin: auto;
+    width: 40%;
+    height: 34vw;
+    text-align: left;
+}
+
+.carousel-item-custom .card-img-top {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.carousel-item-custom .card-body {
+    width: 100%;
+    height: 100%;
+}
+
+#footer {
+    text-align: center;
+    line-height: 4;
+}
+
+/* Mobile + Tablet Styling */
+@media only screen and (max-width: 990px) {
+    body {
+        font-size: 16px;
+    }
+
+    #title-banner {
+        padding: 0;
+    }
+
+    #about p {
+        padding-top: 2%;
+    }
+
+    .about-me-col-right {
+        vertical-align: middle;
+        padding: 2% 15px;
+    }
+
+    #background p {
+        padding: 3%;
+    }
+
+    #headshot-full-img {
+        height: auto;
+        width: auto;
+        border-radius: 30px;
+        float: none;
+    }
+
+    .job-details, .job-dates {
+        width: 100%;
+    }
+
+    #skills {
+        padding: 4rem 1rem;
+    }
+
+    .carousel-item-custom .card {
+        margin: auto;
+        width: 60%;
+        height: 100%;
+        text-align: left;
+    }
+
+}
+
+/* Debugger */
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
